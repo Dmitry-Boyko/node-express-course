@@ -6,4 +6,4 @@ const sentence = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, \n \
  sunt in culpa qui officia deserunt mollit anim id est laborum.'
 
 
-module.exports = sentence
+module.exports = { sentence }
