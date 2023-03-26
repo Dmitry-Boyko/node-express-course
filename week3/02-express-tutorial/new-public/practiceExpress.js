@@ -9,7 +9,7 @@ practiceExpress.get('/', (req, res) => {
 })
 
 // // sample page: localhost:3000/sample
-practiceExpress.get('/sample', (req, res) => {
+practiceExpress.get('./sample', (req, res) => {
   res.status(200).send('This is working')
 })
 
