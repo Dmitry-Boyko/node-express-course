@@ -8,7 +8,7 @@ practiceExpress.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, './new-public/index.html'))
 })
 
-// // sample page: localhost:3000/sample
+// sample page: localhost:3000/sample
 practiceExpress.get('/sample', (req, res) => {
   res.status(200).send('This is working')
 })
