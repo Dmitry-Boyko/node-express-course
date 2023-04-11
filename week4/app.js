@@ -8,7 +8,9 @@ const app = express()
 const auth = require ('./routes/auth')
 
 // https://www.youtube.com/watch?v=Oe421EPjeBE  6:46:23
-
+// app.get('/',(req,res) => {
+//   res.status(200).send('Hello')
+// })
 // static assets
 app.use(express.static('./methods-public'))
 // 7:05:25
