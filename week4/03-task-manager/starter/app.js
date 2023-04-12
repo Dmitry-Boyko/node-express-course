@@ -40,6 +40,6 @@ const start = async () => {
   }
 }
 
-// video stop on 1:30:20
+// video stop on 1:44:14
 
 start()
