@@ -6,6 +6,7 @@ const app = express()
 
 
 // middlware
+app.use(express.static('./public'))
 app.use(express.json())
 
 // adds the routs here
