@@ -1,0 +1,9 @@
+1. Quickly explain how middleware is used in an Express application.
+-- Middleware methods executing by HTTP requests
+2. What does CRUD stand for?
+-- CRUD is a part of software life cicle for the some particular item. Creat, Read, Updae, Delete. 
+3. You are careful to store your sensitive information in a .env file.
+4. How do you get your app to access the information in the .env file?
+-- Passing as assigned to the variable inside conect to db method
+5. How do you protect the contents of the .env file so that it is not stored in your github repository?
+-- Adding inside .gitignore .env sing 
